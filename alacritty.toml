@@ -1,0 +1,78 @@
+# RubyLLM Dark Alacritty Colors
+# Warm, cappuccino-inspired dark palette
+
+[colors.primary]
+background = "#171315"
+foreground = "#f5ede8"
+dim_foreground = "#cebeb5"
+bright_foreground = "#fff6f1"
+
+[colors.cursor]
+text = "#171315"
+cursor = "#ff9b88"
+
+[colors.vi_mode_cursor]
+text = "#171315"
+cursor = "#ff7a64"
+
+[colors.search.matches]
+foreground = "#171315"
+background = "#cebeb5"
+
+[colors.search.focused_match]
+foreground = "#171315"
+background = "#ff9b88"
+
+[colors.footer_bar]
+foreground = "#f5ede8"
+background = "#2a2428"
+
+[colors.hints.start]
+foreground = "#171315"
+background = "#ff9b88"
+
+[colors.hints.end]
+foreground = "#f5ede8"
+background = "#4a3b42"
+
+[colors.selection]
+text = "#f5ede8"
+background = "#32292e"
+
+[colors.normal]
+black = "#2a2428"
+red = "#d44b36"
+green = "#b08a71"
+yellow = "#d8a07a"
+blue = "#8b7882"
+magenta = "#b89aa7"
+cyan = "#c9b0a1"
+white = "#cebeb5"
+
+[colors.bright]
+black = "#4a3b42"
+red = "#ff7a64"
+green = "#c7a088"
+yellow = "#ff9b88"
+blue = "#b89aa7"
+magenta = "#d4b4a5"
+cyan = "#e0c8bc"
+white = "#f5ede8"
+
+[colors.dim]
+black = "#221d20"
+red = "#9e1209"
+green = "#8f6f5b"
+yellow = "#b88663"
+blue = "#6f6168"
+magenta = "#9d828f"
+cyan = "#ab9284"
+white = "#9f8d95"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#ff9b88"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#9e1209"

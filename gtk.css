@@ -1,48 +1,111 @@
-/* RubyLLM Dark GTK overrides for Adwaita */
+/* RubyLLM Dark GTK overrides for Adwaita/Libadwaita */
 
-/* Legacy GTK color names */
-@define-color theme_bg_color #171315;
-@define-color theme_fg_color #f5ede8;
-@define-color theme_base_color #171315;
-@define-color theme_text_color #f5ede8;
-@define-color theme_selected_bg_color #ff7a64;
-@define-color theme_selected_fg_color #171315;
-@define-color theme_unfocused_selected_bg_color #d44b36;
-@define-color theme_unfocused_selected_fg_color #171315;
-@define-color theme_tooltip_bg_color #2a2428;
-@define-color theme_tooltip_fg_color #f5ede8;
-@define-color theme_headerbar_bg_color #201b1e;
-@define-color theme_headerbar_fg_color #f5ede8;
-@define-color theme_headerbar_backdrop_color #181417;
-@define-color theme_headerbar_border_color #4a3b42;
+@define-color background        #171315;
+@define-color foreground        #f5ede8;
 
-/* Libadwaita/GTK4 color names */
-@define-color accent_color #ff7a64;
-@define-color accent_bg_color #ff7a64;
-@define-color accent_fg_color #171315;
-@define-color window_bg_color #171315;
-@define-color window_fg_color #f5ede8;
-@define-color view_bg_color #171315;
-@define-color view_fg_color #f5ede8;
-@define-color headerbar_bg_color #201b1e;
-@define-color headerbar_fg_color #f5ede8;
-@define-color card_bg_color #2a2428;
-@define-color card_fg_color #f5ede8;
+/* Base palette */
+@define-color black             #2a2428;
+@define-color bright_black      #4a3b42;
+@define-color red               #d44b36;
+@define-color green             #b08a71;
+@define-color yellow            #d8a07a;
+@define-color blue              #ff7a64;
+@define-color magenta           #b89aa7;
+@define-color cyan              #c9b0a1;
+@define-color white             #f5ede8;
+@define-color bright_red        #ff9b88;
+@define-color bright_green      #c7a088;
+@define-color bright_yellow     #ff9b88;
+@define-color bright_blue       #ff9b88;
+@define-color bright_magenta    #d4b4a5;
+@define-color bright_cyan       #e0c8bc;
+@define-color bright_white      #fff6f1;
+
+/* Accent system */
+@define-color accent_bg_color   @blue;
+@define-color accent_fg_color   @background;
+@define-color accent_color      @bright_blue;
+
+/* Window */
+@define-color window_bg_color   @background;
+@define-color window_fg_color   @foreground;
+
+/* Views / sidebars */
+@define-color view_bg_color     #171315;
+@define-color view_fg_color     @foreground;
+@define-color sidebar_bg_color  #181417;
+@define-color sidebar_fg_color  @foreground;
+@define-color sidebar_backdrop_color #181417;
+@define-color sidebar_shade_color    #181417;
+
+/* Headerbar */
+@define-color headerbar_bg_color       #201b1e;
+@define-color headerbar_fg_color       @foreground;
+@define-color headerbar_backdrop_color #181417;
+@define-color headerbar_shade_color    #181417;
+
+/* Cards / popovers */
+@define-color card_bg_color     #2a2428;
+@define-color card_fg_color     @foreground;
+@define-color popover_bg_color  #201b1e;
+@define-color popover_fg_color  @foreground;
+
+/* Dialogs */
+@define-color dialog_bg_color   @background;
+@define-color dialog_fg_color   @foreground;
+
+/* States */
+@define-color destructive_bg_color @red;
+@define-color destructive_fg_color @background;
+@define-color success_bg_color  @green;
+@define-color success_fg_color  @background;
+@define-color warning_bg_color  @yellow;
+@define-color warning_fg_color  @background;
+@define-color error_bg_color    @red;
+@define-color error_fg_color    @background;
+
+/* Borders */
+@define-color borders alpha(@foreground, 0.12);
+
+/* GTK legacy mappings */
+@define-color theme_fg_color            @foreground;
+@define-color theme_text_color          @foreground;
+@define-color theme_bg_color            @background;
+@define-color theme_base_color          @view_bg_color;
+@define-color theme_selected_bg_color   @accent_bg_color;
+@define-color theme_selected_fg_color   @accent_fg_color;
+@define-color insensitive_bg_color      @background;
+@define-color insensitive_fg_color      #9f8d95;
+@define-color insensitive_base_color    @view_bg_color;
+@define-color theme_unfocused_fg_color  @foreground;
+@define-color theme_unfocused_text_color @foreground;
+@define-color theme_unfocused_bg_color  @background;
+@define-color theme_unfocused_base_color @view_bg_color;
+@define-color theme_unfocused_selected_bg_color @red;
+@define-color theme_unfocused_selected_fg_color @background;
+@define-color unfocused_insensitive_color #9f8d95;
+@define-color unfocused_borders alpha(@foreground, 0.08);
+@define-color warning_color @yellow;
+@define-color error_color @red;
+@define-color success_color @green;
+@define-color destructive_color @red;
+@define-color content_view_bg @view_bg_color;
+@define-color text_view_bg @view_bg_color;
 
 window,
 .background {
-  background-color: @window_bg_color;
-  color: @window_fg_color;
+    background-color: @window_bg_color;
+    color: @window_fg_color;
 }
 
 button.suggested-action,
 button:checked,
 switch:checked {
-  background-color: @accent_bg_color;
-  color: @accent_fg_color;
+    background-color: @accent_bg_color;
+    color: @accent_fg_color;
 }
 
 selection {
-  background-color: @accent_bg_color;
-  color: @accent_fg_color;
+    background-color: @accent_bg_color;
+    color: @accent_fg_color;
 }

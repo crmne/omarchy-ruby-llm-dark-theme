@@ -1,0 +1,48 @@
+/* RubyLLM Dark GTK overrides for Adwaita */
+
+/* Legacy GTK color names */
+@define-color theme_bg_color #171315;
+@define-color theme_fg_color #f5ede8;
+@define-color theme_base_color #171315;
+@define-color theme_text_color #f5ede8;
+@define-color theme_selected_bg_color #ff7a64;
+@define-color theme_selected_fg_color #171315;
+@define-color theme_unfocused_selected_bg_color #d44b36;
+@define-color theme_unfocused_selected_fg_color #171315;
+@define-color theme_tooltip_bg_color #2a2428;
+@define-color theme_tooltip_fg_color #f5ede8;
+@define-color theme_headerbar_bg_color #201b1e;
+@define-color theme_headerbar_fg_color #f5ede8;
+@define-color theme_headerbar_backdrop_color #181417;
+@define-color theme_headerbar_border_color #4a3b42;
+
+/* Libadwaita/GTK4 color names */
+@define-color accent_color #ff7a64;
+@define-color accent_bg_color #ff7a64;
+@define-color accent_fg_color #171315;
+@define-color window_bg_color #171315;
+@define-color window_fg_color #f5ede8;
+@define-color view_bg_color #171315;
+@define-color view_fg_color #f5ede8;
+@define-color headerbar_bg_color #201b1e;
+@define-color headerbar_fg_color #f5ede8;
+@define-color card_bg_color #2a2428;
+@define-color card_fg_color #f5ede8;
+
+window,
+.background {
+  background-color: @window_bg_color;
+  color: @window_fg_color;
+}
+
+button.suggested-action,
+button:checked,
+switch:checked {
+  background-color: @accent_bg_color;
+  color: @accent_fg_color;
+}
+
+selection {
+  background-color: @accent_bg_color;
+  color: @accent_fg_color;
+}

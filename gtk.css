@@ -21,28 +21,28 @@
 @define-color bright_cyan       #e0c8bc;
 @define-color bright_white      #fff6f1;
 
-/* Accent system */
-@define-color accent_bg_color   @blue;
+/* Accent system (force warm orange so it shows consistently in Nautilus) */
+@define-color accent_bg_color   #d86b1f;
 @define-color accent_fg_color   @background;
-@define-color accent_color      @bright_blue;
+@define-color accent_color      #ffb074;
 
 /* Window */
 @define-color window_bg_color   @background;
 @define-color window_fg_color   @foreground;
 
 /* Views / sidebars */
-@define-color view_bg_color     #171315;
+@define-color view_bg_color     #151114;
 @define-color view_fg_color     @foreground;
-@define-color sidebar_bg_color  #181417;
+@define-color sidebar_bg_color  #241e22;
 @define-color sidebar_fg_color  @foreground;
-@define-color sidebar_backdrop_color #181417;
-@define-color sidebar_shade_color    #181417;
+@define-color sidebar_backdrop_color #1f1a1d;
+@define-color sidebar_shade_color    #1f1a1d;
 
 /* Headerbar */
-@define-color headerbar_bg_color       #201b1e;
+@define-color headerbar_bg_color       #2b2429;
 @define-color headerbar_fg_color       @foreground;
-@define-color headerbar_backdrop_color #181417;
-@define-color headerbar_shade_color    #181417;
+@define-color headerbar_backdrop_color #1f1a1d;
+@define-color headerbar_shade_color    #1f1a1d;
 
 /* Cards / popovers */
 @define-color card_bg_color     #2a2428;
@@ -108,4 +108,33 @@ switch:checked {
 selection {
     background-color: @accent_bg_color;
     color: @accent_fg_color;
+}
+
+/* Nautilus-specific contrast and accent improvements */
+window.nautilus-window .navigation-sidebar {
+    background-color: @sidebar_bg_color;
+    border-right: 1px solid alpha(@foreground, 0.16);
+}
+
+window.nautilus-window .content-pane,
+window.nautilus-window .view {
+    background-color: @view_bg_color;
+}
+
+window.nautilus-window .navigation-sidebar row:selected,
+window.nautilus-window .navigation-sidebar row:selected:focus,
+window.nautilus-window .navigation-sidebar row.activatable:selected {
+    background-color: alpha(@accent_bg_color, 0.25);
+    color: @window_fg_color;
+}
+
+window.nautilus-window .navigation-sidebar row:selected image,
+window.nautilus-window .navigation-sidebar row:selected label {
+    color: @accent_color;
+}
+
+window.nautilus-window .path-bar button:checked,
+window.nautilus-window .path-bar button.active {
+    background-color: alpha(@accent_bg_color, 0.25);
+    color: @accent_color;
 }

@@ -6,14 +6,14 @@
 /* Base palette */
 @define-color black             #2a2428;
 @define-color bright_black      #4a3b42;
-@define-color red               #d44b36;
+@define-color red               #b30000;
 @define-color green             #759d82;
 @define-color yellow            #d8a07a;
 @define-color blue              #7aa2c8;
 @define-color magenta           #d4b4a5;
 @define-color cyan              #6aa6a6;
 @define-color white             #f5ede8;
-@define-color bright_red        #ff8a78;
+@define-color bright_red        #c9271e;
 @define-color bright_green      #a0d2a8;
 @define-color bright_yellow     #ffb074;
 @define-color bright_blue       #9fc2e6;
@@ -22,9 +22,9 @@
 @define-color bright_white      #fff6f1;
 
 /* Accent system */
-@define-color accent_bg_color   #ff5a4f;
+@define-color accent_bg_color   #b30000;
 @define-color accent_fg_color   @background;
-@define-color accent_color      #ff8a78;
+@define-color accent_color      #b30000;
 
 /* Window */
 @define-color window_bg_color   @background;

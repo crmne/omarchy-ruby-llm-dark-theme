@@ -31,9 +31,8 @@ omarchy-theme-set ruby-llm-dark
 - Surface: `#2a2428`
 - Selection: `#3a2f35`
 - Foreground: `#f5ede8`
-- Accent red: `#d44b36`
-- Ruby coral: `#ff5a4f`
-- Ruby bright: `#ff8a78`
+- Ruby red: `#b30000`
+- Ruby bright: `#c9271e`
 - Semantic green: `#759d82`
 - Semantic blue: `#7aa2c8`
 - Semantic teal: `#6aa6a6`

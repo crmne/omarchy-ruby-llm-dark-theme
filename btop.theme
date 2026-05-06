@@ -8,16 +8,16 @@ theme[main_bg]="#171315"
 theme[main_fg]="#f5ede8"
 
 # Title color for boxes
-theme[title]="#ff8a78"
+theme[title]="#c9271e"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#ff5a4f"
+theme[hi_fg]="#b30000"
 
 # Background color of selected item in processes box
 theme[selected_bg]="#3a2f35"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#ff8a78"
+theme[selected_fg]="#c9271e"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#9f8d95"
@@ -43,7 +43,7 @@ theme[div_line]="#4a3b42"
 # Temperature graph color (green -> warm -> red)
 theme[temp_start]="#759d82"
 theme[temp_mid]="#d8a07a"
-theme[temp_end]="#ff5a4f"
+theme[temp_end]="#b30000"
 
 # CPU graph colors (teal -> blue -> rose)
 theme[cpu_start]="#6aa6a6"
@@ -63,7 +63,7 @@ theme[cached_end]="#e0c8bc"
 # Mem/Disk available meter
 theme[available_start]="#ffb074"
 theme[available_mid]="#d8a07a"
-theme[available_end]="#ff5a4f"
+theme[available_end]="#b30000"
 
 # Mem/Disk used meter
 theme[used_start]="#759d82"
@@ -73,7 +73,7 @@ theme[used_end]="#7aa2c8"
 # Download graph colors
 theme[download_start]="#d8a07a"
 theme[download_mid]="#ffb074"
-theme[download_end]="#d44b36"
+theme[download_end]="#b30000"
 
 # Upload graph colors
 theme[upload_start]="#759d82"

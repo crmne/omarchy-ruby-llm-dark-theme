@@ -1,8 +1,8 @@
 @define-color foreground #f5ede8;
 @define-color background #171315;
 @define-color text-muted #cebeb5;
-@define-color brand #ff7a64;
-@define-color brand-strong #ff9b88;
+@define-color brand #ff5a4f;
+@define-color brand-strong #ff8a78;
 @define-color brand-deep #d44b36;
 
 window#waybar #workspaces button.active,

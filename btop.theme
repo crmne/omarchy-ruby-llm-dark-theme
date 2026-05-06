@@ -8,16 +8,16 @@ theme[main_bg]="#171315"
 theme[main_fg]="#f5ede8"
 
 # Title color for boxes
-theme[title]="#ff9b88"
+theme[title]="#ff8a78"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#ff7a64"
+theme[hi_fg]="#ff5a4f"
 
 # Background color of selected item in processes box
 theme[selected_bg]="#3a2f35"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#ff9b88"
+theme[selected_fg]="#ff8a78"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#9f8d95"
@@ -43,7 +43,7 @@ theme[div_line]="#4a3b42"
 # Temperature graph color (green -> warm -> red)
 theme[temp_start]="#759d82"
 theme[temp_mid]="#d8a07a"
-theme[temp_end]="#ff7a64"
+theme[temp_end]="#ff5a4f"
 
 # CPU graph colors (teal -> blue -> rose)
 theme[cpu_start]="#6aa6a6"
@@ -63,7 +63,7 @@ theme[cached_end]="#e0c8bc"
 # Mem/Disk available meter
 theme[available_start]="#ffb074"
 theme[available_mid]="#d8a07a"
-theme[available_end]="#ff7a64"
+theme[available_end]="#ff5a4f"
 
 # Mem/Disk used meter
 theme[used_start]="#759d82"

@@ -9,11 +9,11 @@ bright_foreground = "#fff6f1"
 
 [colors.cursor]
 text = "#171315"
-cursor = "#ff9b88"
+cursor = "#ff8a78"
 
 [colors.vi_mode_cursor]
 text = "#171315"
-cursor = "#ff7a64"
+cursor = "#ff5a4f"
 
 [colors.search.matches]
 foreground = "#171315"
@@ -21,7 +21,7 @@ background = "#cebeb5"
 
 [colors.search.focused_match]
 foreground = "#171315"
-background = "#ff9b88"
+background = "#ff5a4f"
 
 [colors.footer_bar]
 foreground = "#f5ede8"
@@ -29,7 +29,7 @@ background = "#2a2428"
 
 [colors.hints.start]
 foreground = "#171315"
-background = "#ff9b88"
+background = "#ff8a78"
 
 [colors.hints.end]
 foreground = "#f5ede8"

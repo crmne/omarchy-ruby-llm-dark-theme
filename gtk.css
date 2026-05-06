@@ -13,7 +13,7 @@
 @define-color magenta           #d4b4a5;
 @define-color cyan              #6aa6a6;
 @define-color white             #f5ede8;
-@define-color bright_red        #ff9b88;
+@define-color bright_red        #ff8a78;
 @define-color bright_green      #a0d2a8;
 @define-color bright_yellow     #ffb074;
 @define-color bright_blue       #9fc2e6;
@@ -22,9 +22,9 @@
 @define-color bright_white      #fff6f1;
 
 /* Accent system */
-@define-color accent_bg_color   #ff7a64;
+@define-color accent_bg_color   #ff5a4f;
 @define-color accent_fg_color   @background;
-@define-color accent_color      #ff9b88;
+@define-color accent_color      #ff8a78;
 
 /* Window */
 @define-color window_bg_color   @background;

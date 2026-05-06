@@ -1,5 +1,5 @@
 # RubyLLM Dark Alacritty Colors
-# Warm, cappuccino-inspired dark palette
+# Warm dark palette inferred from the RubyLLM Homepage 4.0 light design
 
 [colors.primary]
 background = "#171315"
@@ -37,41 +37,41 @@ background = "#4a3b42"
 
 [colors.selection]
 text = "#f5ede8"
-background = "#32292e"
+background = "#3a2f35"
 
 [colors.normal]
 black = "#2a2428"
 red = "#d44b36"
-green = "#b08a71"
+green = "#759d82"
 yellow = "#d8a07a"
-blue = "#8b7882"
-magenta = "#b89aa7"
-cyan = "#c9b0a1"
+blue = "#7aa2c8"
+magenta = "#d4b4a5"
+cyan = "#6aa6a6"
 white = "#cebeb5"
 
 [colors.bright]
 black = "#4a3b42"
 red = "#ff7a64"
-green = "#c7a088"
-yellow = "#ff9b88"
-blue = "#b89aa7"
-magenta = "#d4b4a5"
-cyan = "#e0c8bc"
+green = "#a0d2a8"
+yellow = "#ffb074"
+blue = "#9fc2e6"
+magenta = "#e0c8bc"
+cyan = "#8bc4c4"
 white = "#f5ede8"
 
 [colors.dim]
 black = "#221d20"
 red = "#9e1209"
-green = "#8f6f5b"
+green = "#4f7059"
 yellow = "#b88663"
-blue = "#6f6168"
+blue = "#4f6f8f"
 magenta = "#9d828f"
-cyan = "#ab9284"
+cyan = "#4f7c7c"
 white = "#9f8d95"
 
 [[colors.indexed_colors]]
 index = 16
-color = "#ff9b88"
+color = "#ffb074"
 
 [[colors.indexed_colors]]
 index = 17

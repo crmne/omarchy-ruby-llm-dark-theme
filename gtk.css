@@ -7,24 +7,24 @@
 @define-color black             #2a2428;
 @define-color bright_black      #4a3b42;
 @define-color red               #d44b36;
-@define-color green             #b08a71;
+@define-color green             #759d82;
 @define-color yellow            #d8a07a;
-@define-color blue              #ff7a64;
-@define-color magenta           #b89aa7;
-@define-color cyan              #c9b0a1;
+@define-color blue              #7aa2c8;
+@define-color magenta           #d4b4a5;
+@define-color cyan              #6aa6a6;
 @define-color white             #f5ede8;
 @define-color bright_red        #ff9b88;
-@define-color bright_green      #c7a088;
-@define-color bright_yellow     #ff9b88;
-@define-color bright_blue       #ff9b88;
-@define-color bright_magenta    #d4b4a5;
-@define-color bright_cyan       #e0c8bc;
+@define-color bright_green      #a0d2a8;
+@define-color bright_yellow     #ffb074;
+@define-color bright_blue       #9fc2e6;
+@define-color bright_magenta    #e0c8bc;
+@define-color bright_cyan       #8bc4c4;
 @define-color bright_white      #fff6f1;
 
-/* Accent system (force warm orange so it shows consistently in Nautilus) */
-@define-color accent_bg_color   #d86b1f;
+/* Accent system */
+@define-color accent_bg_color   #ff7a64;
 @define-color accent_fg_color   @background;
-@define-color accent_color      #ffb074;
+@define-color accent_color      #ff9b88;
 
 /* Window */
 @define-color window_bg_color   @background;
@@ -81,7 +81,7 @@
 @define-color theme_unfocused_text_color @foreground;
 @define-color theme_unfocused_bg_color  @background;
 @define-color theme_unfocused_base_color @view_bg_color;
-@define-color theme_unfocused_selected_bg_color @red;
+@define-color theme_unfocused_selected_bg_color #3a2f35;
 @define-color theme_unfocused_selected_fg_color @background;
 @define-color unfocused_insensitive_color #9f8d95;
 @define-color unfocused_borders alpha(@foreground, 0.08);

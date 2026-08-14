@@ -1,46 +1,50 @@
-# RubyLLM Dark Theme for Omarchy
+# RubyLLM Dark for Omarchy Quattro
 
-RubyLLM Dark is a warm, espresso-toned Omarchy theme inferred from the RubyLLM Homepage 4.0 light design.
+A warm, espresso-toned dark theme derived from the RubyLLM visual identity.
 
 ![RubyLLM Dark preview](preview.png)
 
 ## Install
 
 ```bash
-omarchy-theme-install https://github.com/crmne/omarchy-ruby-llm-dark-theme
+omarchy theme install https://github.com/crmne/omarchy-ruby-llm-dark-theme.git
 ```
 
-Then activate:
+Activate it with:
 
 ```bash
-omarchy-theme-set ruby-llm-dark
+omarchy theme set ruby-llm-dark
 ```
 
-## What's Included
+## Architecture
 
-- Terminal palettes: `alacritty.toml`, `ghostty.conf`, `kitty.conf`
-- WM/UI styling: `hyprland.conf`, `hyprlock.conf`, `waybar.css`, `walker.css`, `swayosd.css`
-- Notifications/system: `mako.ini`, `btop.theme`, `icons.theme`
-- Editor integration: `neovim.lua`, `vscode.json`
-- Browser seed color: `chromium.theme`
-- Wallpapers: `backgrounds/`
+This is a declarative Omarchy Quattro theme. It provides only:
 
-## Core Colors
+- A semantic palette in `colors.toml`
+- A GNOME icon theme choice in `icons.theme`
+- Wallpapers in `backgrounds/`
+- A selector preview in `preview.png`
+
+Omarchy generates and applies the terminal, shell, Hyprland, editor, browser,
+Obsidian, keyboard, and btop integrations from the semantic palette. The theme
+contains no executable hooks, package installation, or application-specific
+configuration files.
+
+## Core colors
 
 - Background: `#171315`
 - Surface: `#2a2428`
 - Selection: `#3a2f35`
 - Foreground: `#f5ede8`
 - Ruby red: `#b30000`
-- Ruby bright: `#c9271e`
-- Semantic green: `#759d82`
-- Semantic blue: `#7aa2c8`
-- Semantic teal: `#6aa6a6`
+- Bright ruby: `#c9271e`
+- Green: `#759d82`
+- Blue: `#7aa2c8`
+- Cyan: `#6aa6a6`
 
-## Notes
+## Requirements
 
-- This theme includes temporary wallpaper picks that will be replaced in a later pass.
-- VS Code integration uses Catppuccin Mocha (`catppuccin.catppuccin-vsc`).
+Omarchy 4 (Quattro) or newer.
 
 ## License
 

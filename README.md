@@ -49,12 +49,13 @@ Gruvbox palette the site uses for code.
 ## Wallpapers
 
 - `01-rubyllm-gem.jpg`: The RubyLLM gem on the homepage grid, made for this theme
-- `02-rubyllm-bubbles.jpg`: The RubyLLM pixel chat bubble, made for this theme
-- `03-rubyllm-facets.jpg`: The gem's facets in deep ruby, made for this theme
-- `04-crimson-silk.jpg`: [Alexander X.](https://unsplash.com/photos/ZOUXvXydHRk) on Unsplash
-- `05-distant-volcano.jpg`: [Ben Turnbull](https://unsplash.com/photos/psW1ci6-_gY) on Unsplash
-- `06-burgundy-leaves.jpg`: [Ayrus Hill](https://unsplash.com/photos/7_WVKimi0m8) on Unsplash
-- `07-red-filament.jpg`: [Terry Vlisidis](https://unsplash.com/photos/WsEbnsnKbUE) on Unsplash
+- `02-rubyllm-logotype.jpg`: The logo with its name, centered
+- `03-rubyllm-bubbles.jpg`: The RubyLLM pixel chat bubble, made for this theme
+- `04-rubyllm-facets.jpg`: The gem's facets in deep ruby, made for this theme
+- `05-crimson-silk.jpg`: [Alexander X.](https://unsplash.com/photos/ZOUXvXydHRk) on Unsplash
+- `06-distant-volcano.jpg`: [Ben Turnbull](https://unsplash.com/photos/psW1ci6-_gY) on Unsplash
+- `07-burgundy-leaves.jpg`: [Ayrus Hill](https://unsplash.com/photos/7_WVKimi0m8) on Unsplash
+- `08-red-filament.jpg`: [Terry Vlisidis](https://unsplash.com/photos/WsEbnsnKbUE) on Unsplash
 
 Photos are used under the [Unsplash License](https://unsplash.com/license).
 

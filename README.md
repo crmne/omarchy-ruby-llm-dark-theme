@@ -1,6 +1,6 @@
 # RubyLLM Dark for Omarchy Quattro
 
-A warm, espresso-toned dark theme derived from the RubyLLM visual identity.
+A neutral, near-black dark theme sampled from the RubyLLM website.
 
 ![RubyLLM Dark preview](preview.png)
 
@@ -24,6 +24,8 @@ This is a declarative Omarchy Quattro theme. It provides only:
 - A GNOME icon theme choice in `icons.theme`
 - Wallpapers in `backgrounds/`
 - A selector preview in `preview.png`
+- A RubyLLM boot unlock logo in `unlock.png`, with its selector preview in
+  `preview-unlock.png`
 
 Omarchy generates and applies the terminal, shell, Hyprland, editor, browser,
 Obsidian, keyboard, and btop integrations from the semantic palette. The theme
@@ -32,15 +34,27 @@ configuration files.
 
 ## Core colors
 
-- Background: `#171315`
-- Surface: `#2a2428`
-- Selection: `#3a2f35`
-- Foreground: `#f5ede8`
-- Ruby red: `#b30000`
-- Bright ruby: `#c9271e`
-- Green: `#759d82`
-- Blue: `#7aa2c8`
-- Cyan: `#6aa6a6`
+Sampled from the rubyllm.com design tokens. The ANSI colors follow the
+Gruvbox palette the site uses for code.
+
+- Background: `#1b1b1a`
+- Surface: `#232323`
+- Section tint: `#181817`
+- Foreground: `#d3ceca`
+- Heading: `#ece9e6`
+- Muted text: `#7e7975`
+- Ruby red: `#ed3434`
+- Bright ruby: `#ff433d`
+
+## Wallpapers
+
+- `01-rubyllm-gem.jpg`: The RubyLLM gem on the homepage grid, made for this theme
+- `02-crimson-silk.jpg`: [Alexander X.](https://unsplash.com/photos/ZOUXvXydHRk) on Unsplash
+- `03-distant-volcano.jpg`: [Ben Turnbull](https://unsplash.com/photos/psW1ci6-_gY) on Unsplash
+- `04-burgundy-leaves.jpg`: [Ayrus Hill](https://unsplash.com/photos/7_WVKimi0m8) on Unsplash
+- `05-red-filament.jpg`: [Terry Vlisidis](https://unsplash.com/photos/WsEbnsnKbUE) on Unsplash
+
+Photos are used under the [Unsplash License](https://unsplash.com/license).
 
 ## Requirements
 
